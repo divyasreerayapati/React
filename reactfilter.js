@@ -48,3 +48,21 @@ let num1 = 10;
 let num2 = 20;
 console.log(`sum of ${num1} and ${num2} is
  ${num1 + num2}`);
+
+//Object Literals
+const obj1 = {};
+
+obj1.code = 1001;
+obj1.name = "software";
+obj1.getdata = function () {
+  console.log(obj1.code, obj1.name);
+};
+obj1.getdata();
+
+//Spread Operator
+
+function sumOne(a, b) {
+  return a + b;
+}
+let arry = [1, 2];
+console.log(sumOne(...arry));
