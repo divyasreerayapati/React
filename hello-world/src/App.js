@@ -3,13 +3,17 @@ import "./App.css";
 import Greet from "./components/Greet";
 import { meeting } from "./components/Greet";
 import Welcome from "./components/Welcome";
+import { dummyvar } from "./components/Welcome";
+import Hello from "./components/Hello";
 
 function App() {
   return (
     <div className="App">
-      <Greet />
+      {/* <Greet />
       {meeting()}
       <Welcome />
+      {dummyvar()} */}
+      <Hello />
     </div>
   );
 }

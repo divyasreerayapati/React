@@ -6,4 +6,8 @@ class Welcome extends Component {
   }
 }
 
+export let dummyvar = () => {
+  return <h2>This a named component Hello everyone</h2>;
+};
+
 export default Welcome;
