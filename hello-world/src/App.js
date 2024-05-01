@@ -5,6 +5,8 @@ import Welcome, { dummyvar } from "./components/Welcome"; // Correct import synt
 import Hello, { example1, example2 } from "./components/Hello"; // Correct import syntax for named exports
 import Propss from "./components/Propss";
 import { myco } from "./components/Propss";
+import Message from "./components/Message";
+
 function App() {
   return (
     <div className="App">
@@ -28,6 +30,8 @@ function App() {
       <Propss name="Leku" heroname="superwonmen" />
 
       {myco("susu")}
+
+      <Message />
     </div>
   );
 }
